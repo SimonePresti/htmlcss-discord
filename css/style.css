@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-image: url(./img/jumbo.png);
+    border: 1px solid black;
+    height: 4rem;
+    border: none;
+
+}
+
+
+.topbar   {
+    border: 1px solid black;
+    height: 2rem;
+    width: 70%;
+    border: none;
+    
+}
+
+.topsection1 {
+    border: 1px solid black;
+    height: 100%;
+    width: 25%;
+    border: none;
+
+}
+
+.topsection2 {
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    border: none;
+
+    
+
+}
+
+.topsection3 {
+    border: 1px solid black;
+    height: 100%;
+    width: 25%;
+    border: none;
+    
+    
+}
+
+.bigimg {
+    background-image: url(./img/jumbo.png);
+    height: 30rem;
+    background-size: cover;
+}
+
+#bigimg1 {
+    border: 1px solid black;
+    height: 85%;
+    width: 45%;
+    border: none;
+
+}
+
+.container {
+    height: 30rem;
+    border: none;
+}
+
+.left {
+    height: 85% ;
+    flex-basis: 40%;
+    border: none;
+    
+}
+
+.right {
+    height: 85% ;
+    flex-basis: 30%;
+    text-align: left
+
+    
+}
+
+.big-container {
+    background-color: aliceblue;
+    border: 1px solid black;
+    height: 75rem;
+}
+
+.big {
+    width: 70%;
+    height: 75%;
+}
+
+footer {
+    background-color: darkcyan;
+    border: 1px solid black;
+    height: 30rem;
+}
+
+.big-column {
+    background-color: brown;
+    border: 1px solid black;
+    height: 85%;
+    flex-basis: 20%;
+}
+
+.column {
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 85%;
+    flex-basis: 12.5%;
+}
+
+.footer-smaller {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    height: 5rem;
+}
+
+
+#end {
+    background-color: blue;
+    border: 1px solid black;
+    height: 50%;
+    width: 70%;
+    margin-top: 2.4rem;
+    
+}
+
+.p {
+    margin: 1.2rem;
+    font-size: small;
+    color: white;
+
+}
+
+.button1 {
+    background-color: white;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 2rem;
+    margin-left: 10rem;
+    border: none;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 2.7rem;
+    margin-top: 3.5rem;
+ 
+}
+
+.p1 {
+    text-align: center;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    height: 3rem;
+    width: 10rem;
+    margin-right: 3rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    border: none;
+    font-weight: 600;
+
+}
+
+.button3 {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 14rem;
+    border-radius:5rem;
+    opacity: 80%;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 2.3rem ;
+}
+
+.p2 {
+    font-size: small;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+
+.onda {
+    background-color: beige;
+}
+
+
+.stars {
+    background-image: url(./img/stars.svg);
+    background-position: 11rem 30rem ;
+    background-repeat: round;
+    
+}
+
+h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 3rem;
+}
