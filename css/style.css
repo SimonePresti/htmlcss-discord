@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: sans-serif;
 }
@@ -94,7 +95,6 @@ header {
 
 .big-container {
     background-color: aliceblue;
-    border: 1px solid black;
     height: 75rem;
 }
 
@@ -104,38 +104,30 @@ header {
 }
 
 footer {
-    background-color: darkcyan;
-    border: 1px solid black;
-    height: 30rem;
+    height: 38rem;
 }
 
 .big-column {
-    background-color: brown;
-    border: 1px solid black;
     height: 85%;
     flex-basis: 20%;
 }
 
 .column {
-    background-color: blueviolet;
-    border: 1px solid black;
-    height: 85%;
+    height: 90%;
     flex-basis: 12.5%;
+    line-height: 3rem;
 }
 
 .footer-smaller {
-    background-color: antiquewhite;
-    border: 1px solid black;
-    height: 5rem;
+    height: 7rem;
+    border-top: 1px solid  #4f65b5;
 }
 
 
 #end {
-    background-color: blue;
-    border: 1px solid black;
+
     height: 50%;
     width: 70%;
-    margin-top: 2.4rem;
     
 }
 
@@ -208,16 +200,78 @@ h2 {
     background-color: beige;
 }
 
+  
 
-.stars {
-    background-image: url(./img/stars.svg);
-    background-position: 11rem 30rem ;
-    background-repeat: round;
-    
-}
-
-h3 {
+#titolo-stars {
     font-size: 1.6rem;
-    text-align: center;
+    align-items: center;
+    margin-left: 13rem;
     margin-top: 3rem;
 }
+
+.button4 {
+    background-color: #7289da;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    margin-right: 3rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    border: none;
+    font-weight: 600;
+    margin-left: 22rem;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+#titolo-col {
+    font-size: 2rem;
+    color: #7289da;
+}
+
+.p3 {
+    font-size: small;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    color: white;
+}
+
+.ul-title {
+    list-style-type: none;
+    color: #7289da;
+    font-weight: 600;
+
+}
+
+.ul-li {
+    list-style-type: none;
+    color: white;
+    font-weight: 600;
+
+
+}
+
+.logo {
+    display: inline;
+    margin-right: 42rem;
+}
+
+#button5 {
+    color: white;
+    width: 6rem;
+    height: 3rem;
+    background-color: #7289da;
+    border-radius: 5rem;
+    font-weight: 600;
+    border: none;
+}
+
+.ita {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.2rem;
+}
+
